@@ -1,0 +1,7 @@
+.saved-news-card-list {
+  display: flex;
+  max-height: 1292px;
+  padding: 64px 102px;
+  gap: 16px;
+  background-color: rgb(245, 246, 257);
+}

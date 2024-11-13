@@ -1,13 +1,13 @@
 import { React } from "react";
 import "./SavedNews.css";
 import SavedNewsHeader from "../SavedNewsHeader/SavedNewsHeader";
-import NewsCardList from "../NewsCardList/NewsCardList";
+import SavedNewsCardList from "../SavedNewsCardList/SavedNewsCardList";
 
 function SavedNews({}) {
   return (
     <>
       <SavedNewsHeader></SavedNewsHeader>
-      <NewsCardList></NewsCardList>
+      <SavedNewsCardList></SavedNewsCardList>
     </>
   );
 }
