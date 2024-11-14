@@ -24,7 +24,7 @@
 }
 
 .news-card-list__show-more-btn {
-  background-color: rgb(232, 232, 232);
+  background-color: rgb(255, 255, 255);
   border: none;
   border-radius: 100px;
   color: rgb(26, 27, 28);
@@ -33,4 +33,9 @@
   height: 64px;
   width: 288px;
   cursor: pointer;
+}
+
+.news-card-list__show-more-btn:hover {
+  background-color: rgb(232, 232, 232);
+  transition: 0.25s ease-in-out;
 }

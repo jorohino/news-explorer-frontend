@@ -31,7 +31,7 @@
   width: 168px;
   height: 64px;
   padding: 10px 20px;
-  background-color: rgba(47, 113, 229, 1);
+  background-color: rgb(47, 113, 229);
   border: none;
   border-radius: 100px;
   color: #fff;
@@ -42,3 +42,15 @@
   text-align: center;
   cursor: pointer;
 }
+
+.search-form__submit:hover {
+  background-color: rgb(52, 126, 255);
+  transition: 0.25s ease-in-out;
+}
+
+/* FIX: IMPLEMENT ACTIVE STATE
+.search-form__submit:active {
+  background-color: rgb(42, 101, 204);
+  transition: 1s ease-in-out;
+}
+*/
