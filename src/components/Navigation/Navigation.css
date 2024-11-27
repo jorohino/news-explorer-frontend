@@ -44,3 +44,21 @@
   cursor: pointer;
   align-self: center;
 }
+
+@media screen and (max-width: 768px) {
+  .navigation {
+    margin: auto 40px;
+  }
+
+  .navigation__title {
+    max-width: 135px;
+  }
+
+  .navigation__btn-container {
+    gap: 26px;
+  }
+
+  .navigation__signin-btn {
+    max-width: 152px;
+  }
+}

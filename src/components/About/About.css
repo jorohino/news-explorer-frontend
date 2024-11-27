@@ -28,3 +28,26 @@
   font-size: 18px;
   line-height: 24px;
 }
+
+@media screen and (max-width: 768px) {
+  .about {
+    margin: 40px 40px 61px;
+    align-items: center;
+  }
+
+  .about__author-image {
+    width: 232px;
+    height: 232px;
+    margin: 0;
+  }
+
+  .about__title {
+    font-size: 30px;
+    margin: 0;
+  }
+
+  .about__author-info {
+    max-width: 424px;
+    padding: 0 0 0 32px;
+  }
+}

@@ -2,11 +2,13 @@
   background-color: #fff;
   margin: 0;
   padding: 0;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .app__content {
-  max-width: 1440px;
   margin: 0 auto;
   padding: 0;
   width: 100%;
+  box-sizing: border-box;
 }

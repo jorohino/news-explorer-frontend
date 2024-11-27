@@ -48,6 +48,12 @@
   transition: 0.25s ease-in-out;
 }
 
+@media screen and (max-width: 768px) {
+  .search-form__submit {
+    max-width: 160px;
+  }
+}
+
 /* FIX: IMPLEMENT ACTIVE STATE
 .search-form__submit:active {
   background-color: rgb(42, 101, 204);

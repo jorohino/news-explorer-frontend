@@ -7,6 +7,10 @@ import { Route, Routes, useNavigate } from "react-router-dom";
 import Main from "../Main/Main";
 import SavedNews from "../SavedNews/SavedNews";
 import Footer from "../Footer/Footer";
+import ModalWithForm from "../ModalWithForm/ModalWithForm";
+import RegisterModal from "../RegisterModal/RegisterModal";
+import SigninModal from "../SigninModal/SigninModal";
+import SuccessModal from "../SuccessModal/SuccessModal";
 // Modal Component Imports
 
 // Style Imports
